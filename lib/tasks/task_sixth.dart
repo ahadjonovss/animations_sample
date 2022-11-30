@@ -36,7 +36,7 @@ class _TaskSixthState extends State<TaskSixth> {
               borderRadius: BorderRadius.circular(12),
               color: Colors.blue,
             ),
-              child: Center(child: Text("This is first widget"))
+              child: Center(child: Text("This is second widget"))
           ),
         ),
               SizedBox(height: 24,),
