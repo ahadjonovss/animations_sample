@@ -3,6 +3,7 @@ import 'package:animations/tasks/fifth_task.dart';
 import 'package:animations/tasks/first_task.dart';
 import 'package:animations/tasks/fourth_task.dart';
 import 'package:animations/tasks/second_task.dart';
+import 'package:animations/tasks/seventh_task.dart';
 import 'package:animations/tasks/task_sixth.dart';
 import 'package:animations/tasks/third_task.dart';
 import 'package:flutter/material.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TaskSixth()
+      home: SeventhTask()
     );
   }
 }
