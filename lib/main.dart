@@ -1,3 +1,4 @@
+import 'package:animations/main_page.dart';
 import 'package:animations/preparing/first_animation.dart';
 import 'package:animations/tasks/eighth_task.dart';
 import 'package:animations/tasks/fifth_task.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: EighthTask()
+      home: MainPage()
     );
   }
 }

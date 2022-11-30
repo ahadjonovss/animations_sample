@@ -27,6 +27,7 @@ class _SeventhTaskState extends State<SeventhTask> {
             ),
           ),
         ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {

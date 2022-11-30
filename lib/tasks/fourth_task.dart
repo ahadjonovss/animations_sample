@@ -34,6 +34,7 @@ class _FourthTaskState extends State<FourthTask> {
           ),
         ),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
