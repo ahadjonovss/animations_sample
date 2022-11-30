@@ -1,4 +1,5 @@
 import 'package:animations/preparing/first_animation.dart';
+import 'package:animations/tasks/first_task.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: RotationAnimation()
+      home: FirstTask()
     );
   }
 }
